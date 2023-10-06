@@ -4,8 +4,10 @@ title: "Teaching"
 
 -   I've independently and jointly supervised over 50 students (including undergraduate, MSc and PhD students) in Biology, Ecology, Data Science, and Science Communication courses at a range of universities.
 
--   I'm a certified Software Carpentries Instructor. Within my lab, I train all students, research assistants and postdoctoral researchers by regularly running courses, including statistics, mixed-effects modelling in R, good coding practice, reproducible workflows and Git.
+-   I'm a certified [Software Carpentries Instructor](https://software-carpentry.org) Within my lab, I train all students, research assistants and postdoctoral researchers by regularly running courses, including statistics, mixed-effects modelling in R, good coding practice, reproducible workflows and Git.
 
--   I'm the Museum Coordinator for the MSc Ecology and Data Science at University College London & Natural History Museum and act as a Personal Tutor for a number of students each year.
+-   I'm the Museum Coordinator for the [MSc Ecology and Data Science at University College London & Natural History Museum](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/ecology-and-data-science-msc) and act as a Personal Tutor for a number of students each year.
 
--   I'm committed to making ecology and computational skills accessible to all. I'm on the Software Carpentry Curriculum Advisory Board for Data Carpentry: Ecology.
+-   I'm committed to making ecology and computational skills accessible to all. I'm on the [Software Carpentry Curriculum Advisory Board](https://carpentries.org/curriculum-advisors/) for Data Carpentry: Ecology.
+
+If you are interested in working with me, please contact me [via the NHM](https://www.nhm.ac.uk/about-us/contact-enquiries/forms/emailform.jsp?recip=A.De-Palma&business_title=Adriana+De%20Palma).

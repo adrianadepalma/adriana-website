@@ -140,8 +140,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>My full publication list can be found on my <a href="https://goo.gl/PgXiLf">Google Scholar</a> or <a href="https://orcid.org/0000-0002-5345-4917">ORCID</a> page.</p>
-<p>Over the past few years, my scientific research has mostly focused on improving the statistical methodology behind the NHM Biodiversity Intactness Index: a powerful indicator of the health of nature, that can assess the current state of biodiversity as well as project into the future under different scenarios.</p>
-<p>My current area of interest is using our high-resolution biodiversity indicators to assess inequality in access to high-quality green space. I’m exploring this in the UK context in detail, and am independently working on a less detailed, global person-centered indicator of biodiversity health. I’m also partner on a large grant-proposal that, if funded, will explore how young people access and perceive green space in some of the most highly-deprived areas in the UK.</p>
+<p>Over the past few years, my scientific research has mostly focused on improving the statistical methodology behind the <a href="https://www.nhm.ac.uk/our-science/data/biodiversity-indicators/what-is-the-biodiversity-intactness-index.html#:~:text=The%20BII%20is%20an%20estimated,granular%20and%20global%20biodiversity%20targets.">Biodiversity Intactness Index</a>: a powerful indicator of the health of nature, that can assess the current state of biodiversity as well as project into the future under different scenarios.</p>
+<p>My current area of interest is using our high-resolution biodiversity indicators to assess inequality in access to high-quality green space. I’m exploring this in the UK context in detail, and am working on a less detailed, global person-centered indicator of biodiversity health.</p>
 <p>I’m also working on <a href="https://www.educationnaturepark.org.uk">The National Education Nature Park project</a>, funded by the Department for Education. I’m leading a work package to investigate how different local conservation interventions impact biodiversity, using this data to help schools, teachers and students to decide on which intervention to put into place. I also plan to explore how we can use biodiversity data gathered by the students to develop new online tools for delivering other aspects of the curriculum (e.g.&nbsp;biology, maths, computer science, geography). Not all people are willing or able to do ‘hands-on’ conservation work; but through data we can find another way to engage students with the natural world.</p>
 
 
@@ -378,6 +378,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

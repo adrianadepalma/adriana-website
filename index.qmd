@@ -1,8 +1,11 @@
 ---
 title: "Adriana De Palma"
+image: images/profile-image.jpg
+about:
+  template: broadside
 ---
 
-I'm a permanent researcher at the Natural History Museum in London and Co-Lead of the Biodiversity Futures Lab.
+I'm a permanent researcher at the [Natural History Museum London](https://www.nhm.ac.uk) and Co-Lead of the Biodiversity Futures Lab.
 
 I'm a computational ecologist; I use large, complex datasets and multiple data-science approaches to understand how human activity affects the variety of life on land. I then use this information to predict the health of nature in the past, present and future, so we can see how we got to where we are now, and where we are going.
 
@@ -10,12 +13,12 @@ Scientific advancement is a key part of my job, but the true aim is to support o
 
 Other posts:
 
--   Lead Author, IPBES Nexus Assessment
+-   Lead Author, [IPBES Nexus Assessment](https://www.ipbes.net/nexus)
 
--   Museum Coordinator, MSc Ecology and Data Science, University College London & Natural History Museum
+-   Museum Coordinator, [MSc Ecology and Data Science](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/ecology-and-data-science-msc), University College London & Natural History Museum
 
--   Curriculum Advisor for Data Carpentry: Ecology, Software Carpentry
+-   [Curriculum Advisor](https://carpentries.org/curriculum-advisors/) for Data Carpentry: Ecology, Software Carpentry
 
--   Editorial Board Member, npj Biodiversity
+-   Editorial Board Member, [npj Biodiversity](https://www.nature.com/npjbiodivers/editors)
 
--   World Economic Forum Young Scientist of the Year, 2019
+-   [World Economic Forum Young Scientist of the Year](https://www.weforum.org/press/2019/06/unveiled-the-brightest-young-scientific-minds-in-the-world/), 2019

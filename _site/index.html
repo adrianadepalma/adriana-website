@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -64,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,44 +115,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-broadside column-page">
+  <div class="about-main">
+    <div class="about-entity" style="background-image: url('images/profile-image.jpg')"></div>
+    <div class="about-contents"><header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Adriana De Palma</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-</header>
-
-<p>I’m a permanent researcher at the Natural History Museum in London and Co-Lead of the Biodiversity Futures Lab.</p>
+</header><main class="content" id="quarto-document-content">
+<p>I’m a permanent researcher at the <a href="https://www.nhm.ac.uk">Natural History Museum London</a> and Co-Lead of the Biodiversity Futures Lab.</p>
 <p>I’m a computational ecologist; I use large, complex datasets and multiple data-science approaches to understand how human activity affects the variety of life on land. I then use this information to predict the health of nature in the past, present and future, so we can see how we got to where we are now, and where we are going.</p>
 <p>Scientific advancement is a key part of my job, but the true aim is to support others on the journey towards a happy and healthy planet, for the benefit of both people and nature. I do that by developing and sharing robust scientific evidence to help people—including policy makers and companies—to understand their impacts on the world around us and to make more sustainable choices.</p>
 <p>Other posts:</p>
 <ul>
-<li><p>Lead Author, IPBES Nexus Assessment</p></li>
-<li><p>Museum Coordinator, MSc Ecology and Data Science, University College London &amp; Natural History Museum</p></li>
-<li><p>Curriculum Advisor for Data Carpentry: Ecology, Software Carpentry</p></li>
-<li><p>Editorial Board Member, npj Biodiversity</p></li>
-<li><p>World Economic Forum Young Scientist of the Year, 2019</p></li>
+<li><p>Lead Author, <a href="https://www.ipbes.net/nexus">IPBES Nexus Assessment</a></p></li>
+<li><p>Museum Coordinator, <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/ecology-and-data-science-msc">MSc Ecology and Data Science</a>, University College London &amp; Natural History Museum</p></li>
+<li><p><a href="https://carpentries.org/curriculum-advisors/">Curriculum Advisor</a> for Data Carpentry: Ecology, Software Carpentry</p></li>
+<li><p>Editorial Board Member, <a href="https://www.nature.com/npjbiodivers/editors">npj Biodiversity</a></p></li>
+<li><p><a href="https://www.weforum.org/press/2019/06/unveiled-the-brightest-young-scientific-minds-in-the-world/">World Economic Forum Young Scientist of the Year</a>, 2019</p></li>
 </ul>
 
 
-
-</main> <!-- /main -->
+</main></div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -174,13 +164,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -385,6 +368,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
