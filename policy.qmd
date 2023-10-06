@@ -1,0 +1,13 @@
+---
+title: "Policy"
+---
+
+I've been interested in the science-policy interface for a number of years, but particularly since undertaking a Fellowship at the Parliamentary Office for Science and Technology (POST) in 2014. I have continued my work in this area and highlight only a few key activities:
+
+- In preparation for COP15, I developed a scenario-builder tool; this allowed me to quickly predict the Biodiversity Intactness Index (BII) under new scenarios in order to reflect daily progress of the negotiations. I worked closely with artist Thijs Biersteker, who then fed these new BII values (updated twice daily) into his artwork [a robotic plant](https://www.youtube.com/watch?v=is0j1m5vGLo) that grew or wilted depending on our progress, which was displayed to attendees. Thijs and I were invited to the official [COP press conference](https://www.youtube.com/watch?v=SqYggjU_0lI) to talk about this work further. 
+
+- I was one of two science experts at the Launch of the [CSaP Policy Fellows Climate and Sustainability Cluster](https://www.csap.cam.ac.uk/news/article-how-do-we-tackle-biodiversity-crisis/) (July 2023).
+
+- I developed a [pilot data portal](https://adriana-de-palma.shinyapps.io/ssp_explore/) for policy makers to access our biodiversity indicator data. In the run-up to COP26, this idea was developed into [The Biodiversity Trends Explorer](https://www.nhm.ac.uk/our-science/data/biodiversity-indicators.html) (BTE).
+
+- I led the analysis of the BII for a piece of [consultancy work for Vivid Economics](https://www.vivideconomics.com/wp-content/uploads/2021/02/210211-The-Urgency-of-Biodiversity-Action.pdf), which fed into the [Dasgupta Review on the Economics of Biodiversity](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/962785/The_Economics_of_Biodiversity_The_Dasgupta_Review_Full_Report.pdf), 2021, HM Treasury.

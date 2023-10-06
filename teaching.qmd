@@ -1,0 +1,11 @@
+---
+title: "Teaching"
+---
+
+-   I've independently and jointly supervised over 50 students (including undergraduate, MSc and PhD students) in Biology, Ecology, Data Science, and Science Communication courses at a range of universities.
+
+-   I'm a certified Software Carpentries Instructor. Within my lab, I train all students, research assistants and postdoctoral researchers by regularly running courses, including statistics, mixed-effects modelling in R, good coding practice, reproducible workflows and Git.
+
+-   I'm the Museum Coordinator for the MSc Ecology and Data Science at University College London & Natural History Museum and act as a Personal Tutor for a number of students each year.
+
+-   I'm committed to making ecology and computational skills accessible to all. I'm on the Software Carpentry Curriculum Advisory Board for Data Carpentry: Ecology.

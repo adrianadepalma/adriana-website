@@ -1,0 +1,11 @@
+---
+title: "Science"
+---
+
+My full publication list can be found on my [Google Scholar](https://goo.gl/PgXiLf) or [ORCID](https://orcid.org/0000-0002-5345-4917) page.
+
+Over the past few years, my scientific research has mostly focused on improving the statistical methodology behind the NHM Biodiversity Intactness Index: a powerful indicator of the health of nature, that can assess the current state of biodiversity as well as project into the future under different scenarios.
+
+My current area of interest is using our high-resolution biodiversity indicators to assess inequality in access to high-quality green space. I'm exploring this in the UK context in detail, and am independently working on a less detailed, global person-centered indicator of biodiversity health. I'm also partner on a large grant-proposal that, if funded, will explore how young people access and perceive green space in some of the most highly-deprived areas in the UK.
+
+I'm also working on [The National Education Nature Park project](https://www.educationnaturepark.org.uk), funded by the Department for Education. I'm leading a work package to investigate how different local conservation interventions impact biodiversity, using this data to help schools, teachers and students to decide on which intervention to put into place. I also plan to explore how we can use biodiversity data gathered by the students to develop new online tools for delivering other aspects of the curriculum (e.g. biology, maths, computer science, geography). Not all people are willing or able to do 'hands-on' conservation work; but through data we can find another way to engage students with the natural world.

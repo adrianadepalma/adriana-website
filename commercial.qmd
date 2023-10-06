@@ -1,0 +1,12 @@
+---
+title: "Commercial"
+---
+
+In 2020, I spoke at the Enterprise Applications of the R Language (EARL) conference on how we can use R to predict biodiversity loss. This generated interest and inquiries from the commercial and non-profit sectors.
+
+Over a number of international events since then, the commercial need for robust, scientific data on biodiversity impacts—along with the ability to project change into the future—has only become more obvious. In response, the Natural History Museum has supported the Biodiversity Futures Lab (of which I am Co-Lead) to further pursue commercial opportunities. The main aim here is impact; we want to help companies make more sustainable choices. Any funds raised go back into the NHM.
+
+I have developed a [Reproducible Analytical Pipeline](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/) in R to produce robust data on biodiversity indicators, particularly the Biodiversity Intactness Index. This pipeline allows us to respond more quickly to data requests, while ensuring reproducibility. I also lead on the improvements in statistical methodology and data enhancements.
+
+We have also been engaging with the Task Force for Nature Related Financial Disclosure and others.
+

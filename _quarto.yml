@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Adriana De Palma"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: science.qmd
+        text: Science
+      - href: policy.qmd
+        text: Policy
+      - href: commercial.qmd
+        text: Commercial
+      - href: engagement.qmd
+        text: Engagement
+      - href: teaching.qmd
+        text: Teaching
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
